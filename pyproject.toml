@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "end_to_end_image_pipeline"
+version = "0.1.0"
+description = "A Python package for training, fine-tuning, and inferring with SEAL-CNN and EWC."
+readme = "README.md"
+authors = [{name = "Ajay Sivakumar", email = "ajay.sivakumar.ai@gmail.com"}]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "torch>=1.9.0",
+    "torchvision>=0.10.0",
+    "numpy>=1.19.0",
+    "pandas>=1.3.0",
+    "Pillow>=8.0.0",
+    "clip>=1.0",
+    "icrawler>=0.6.6",
+    "scikit-learn>=0.24.0",
+    "tqdm>=4.60.0",
+]
+requires-python = ">=3.7"
+
+[project.urls]
+Homepage = "https://github.com/Aviation169/End_To_End_Image_Pipeline"
+Repository = "https://github.com/Aviation169/End_To_End_Image_Pipeline.git"
