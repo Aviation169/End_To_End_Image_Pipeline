@@ -5,7 +5,7 @@ A Python package for training, fine-tuning, and inferring with CNN models using 
 ## ⬇️Installation
 
 ```
-pip install pipeline
+pip install end_to_end_image_pipeline
 ```
 
 ## 📒Usage
